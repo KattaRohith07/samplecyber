@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CYBERTRIX2K24</title>
+    <script src="https://kit.fontawesome.com/c6920433d0.js" crossorigin="anonymous"></script>
+    <style>
+        /* Typewriter font and white text color */
+        .card2 {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+            border-radius: 8px; /* Optional: Add rounded corners */
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    scrollbar-width: 100%;
+}
+.process-row {
+			font-family: 'Oxanium', cursive;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+		justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+}
+.traineeship .activity {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 267px;
+    height: 260px;
+    margin: 15px 10px 10px;
+    background-color: #00484193;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+    overflow: hidden;
+    position: relative; /* Ensure the pop animation works correctly */
+}
+.animate-from-bottom__0 {
+    -webkit-animation-name: from-left;
+    animation-name: from-left;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+}
+.animate-from-bottom__1 {
+    -webkit-animation-name: from-left;
+    animation-name: from-left;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+}
+.animate-from-bottom__2 {
+    -webkit-animation-name: from-left;
+    animation-name: from-left;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.animate-from-bottom__3 {
+    -webkit-animation-name: from-left;
+    animation-name: from-left;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s
+}
+.animate-from-bottom__4 {
+    -webkit-animation-name: from-left;
+    animation-name: from-left;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s
+}
+.traineeship .activity .relative-block {
+    width: 100%;
+    min-height: 350px;
+}
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); /* Increase size to 105% */
+    }
+    100% {
+        transform: scale(1); /* Return to original size */
+    }
+}
+@-webkit-keyframes from-left {
+    from {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px)
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+@keyframes from-left {
+    from {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px)
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+.relative-block {
+    position: relative;
+}
+.activity-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.activity-icon img {
+    width: 130%;
+    float:right;
+}
+.traineeship .inactive {
+    padding: 20px;
+}
+.traineeship .inactive .title {
+    border-bottom: 3px solid #2af5e1;
+    padding-bottom: 14px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 28px;
+}
+.traineeship .activity .active {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    height: auto;
+    min-height: 100%;
+    padding: 25px 30px 50px;
+}
+.traineeship .activity .active .title {
+    color: #bbffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.traineeship .activity .active .sub-title {
+    margin-top: 10px;
+    color:white;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    border: 1px solid white;
+    background-color: rgba(10, 10, 10, 0.687);
+    width: 300%;
+}
+.traineeship .activity .active .sub-title b{
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.traineeship .activity .active .sub-title p{
+    margin-left: 10px;
+    font-family:"Poppins", sans-serif;
+}
+.traineeship .activity .active .ul {
+    margin-bottom: 45px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: rgba(10, 10, 10, 0.687);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10%;
+            height: 40%;
+        }
+        .footer div {
+            width: 60%;
+        }
+        .footer h2 {
+            margin-top: 0;
+            font-size: 24px;
+            font-family: "Poppins", sans-serif;
+        }
+        .footer p {
+            margin: 10px 0;
+            line-height: 1.5;
+            font-family: "Poppins", sans-serif;
+            font-size: 20px;
+        }
+        .footer a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #00bfff;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 10px;
+            color: white;
+            font-family: "Poppins", sans-serif;
+            font-size: 20px;
+        }
+        .line{
+            color: white;
+            width: 50%;
+        }
+        
+.traineeship .activity .active .li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+}
+.traineeship .activity .active .li:before {
+    position: absolute;
+    content: "\f00c";
+    color: #e2b921;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.6em;
+    width: 22px;
+}
+.traineeship .activity:hover {
+    width: 100%;
+    background-color: #69c5d23b;
+    height: 300%;
+    -webkit-box-shadow: 0 10px 20px rgba(0.3, 0.3, 0.3, 0.3); /* New shadow on hover */
+    box-shadow: 0 10px 20px rgba(1, 1, 1, 1.3); /* New shadow on hover */
+    animation: pop 0.4s ease-in-out; /* Apply pop animation on hover */
+}
+
+.traineeship .activity:hover .inactive {
+    display: none;
+}
+
+.traineeship .activity:hover .active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 340px;
+}
+
+@media only screen and (max-width: 400px) {
+    .process-row {
+        flex-direction: column;
+    }
+    
+    .traineeship .inactive .title{
+        font-size: 1.5rem;
+    }
+
+    .traineeship .activity {
+        width: 93%;
+    }
+    .traineeship .activity .active{
+        width: 93%;
+    }
+
+    .traineeship .activity .active .sub-title {
+        font-size: 1em;
+        
+    }
+
+    .traineeship .activity .active .title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .traineeship .activity .relative-block {
+        min-height: 100%;
+    }
+
+    .traineeship .activity:hover {
+        width: 98%;
+			margin-left:2px;
+			margin-right:10px;
+    }
+    .traineeship .activity .active .sub-title b{
+    font-family:"Poppins", sans-serif;
+    font-size: 20px;
+    justify-content:flex-end;
+    text-align: justify;
+}
+.traineeship .activity .active .sub-title p{
+    font-family:"Poppins", sans-serif;
+    font-size: 20px;
+    justify-content:flex-end;
+    text-align: justify;
+}
+
+.traineeship .activity {
+    display: flex;
+    width: 267px;
+    height: 260px;
+    margin: 15px 10px 10px;
+    background-color: #00484193;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: .3s;
+    overflow: hidden;
+    position: relative; /* Ensure the pop animation works correctly */
+}
+
+/* Add glow effect on hover */
+.traineeship .activity:hover {
+    width: 100%;
+    background-color: #ffffff3b;
+    height: 300%;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Glow effect */
+    animation: pop 0.4s ease-in-out; /* Apply pop animation on hover */
+}
+
+/* Existing styles for hover effect */
+.traineeship .activity:hover .inactive {
+    display: none;
+}
+
+.traineeship .activity:hover .active {
+    display: block;
+    width: 100%;
+}
+
+
+
+}
+
+@media only screen and (max-width: 400px){
+    .activity-icon img {
+        width: 30%;
+    }
+	    .traineeship .activity .active .sub-title {
+        font-size: .7em;
+        
+    }
+    #countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 8%; /* Adjust this value to push the countdown upwards */
+  width: 10%;
+}
+
+#header{
+    background-image: url(smallwall.jpg);
+}
+.time-box {
+  background-color: rgba(31, 40, 51, 0.8);
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 90px;
+  text-align: center;
+  font-family: 'Courier', monospace;
+}
+
+#register-button{
+    margin-top: 30%;
+}
+.time-box span {
+  display: block;
+  font-size: 3em;
+  color: #66fcf1;
+}
+
+.time-box p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #c5c6c7;
+  font-family: 'Courier', monospace;
+}
+.footer{
+    display: block;
+    height: 60vh;
+}
+.footer .location{
+    width: 100%;
+}
+.footer .location h2{
+    text-align: center;
+}
+.footer .social{
+    width: 100%;
+}
+.footer .social h2{
+    text-align: center;
+}
+.footer p {
+    margin-left: 10px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.contact-info{
+    font-size: 20px;
+}
+
+}
+
+#header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #Matrix {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="header">
+        <canvas id="Matrix"></canvas>
+        <div class="container">
+            <img src="Web_Header_2024.png" alt="Web Header" class="web-header">
+            <section id="countdown">
+                <div class="time-box">
+                    <span id="days"></span>
+                    <p>Days</p>
+                </div>
+                <div class="time-box">
+                    <span id="hours"></span>
+                    <p>Hours</p>
+                </div>
+                <div class="time-box">
+                    <span id="minutes"></span>
+                    <p>Minutes</p>
+                </div>
+                <div class="time-box">
+                    <span id="seconds"></span>
+                    <p>Seconds</p>
+                </div>
+            </section>
+            <button id="register-button">
+                REGISTER
+            </button>
+        </div>
+    </div>
+
+    <div class="traineeship">
+        <center><h1 class="events">EVENTS</h1></center>
+        <div class="process-row">
+            <div class="activity animate-from-bottom__0">
+                <div class="relative-block">
+                    <div class="activity-icon">
+                        <img alt="An image" src="https://i.ibb.co/ZWp3Yts/ad-operations-process-strategy.png">   
+                    </div>
+                    <div class="inactive">
+                        <div class="title">INNOQUEST</div>
+                    </div>
+                    <div class="active">
+                        <div class="title">INNOQUEST</div>
+                        <div class="sub-title"><b>What is it?</b><br><br>
+                         <p>  A competition where participants embark on a quest for innovation, collaborating to develop groundbreaking solutions to real-world challenges across various domains. This ideathon emphasizes creativity, feasibility, and practical implementation, encouraging teams to push the boundaries of technology and innovation.Certainly! Here are three rounds for the InnoQuest competition: <br><br>
+                        
+                        Themes: <br>
+                        1.Business <br>
+                        2.General<br>
+                        3.Health-care & Fitness<br>
+                        4.Cyber security<br>
+                        5.Travel & Tourism<br>
+                        6.Robotics <br>
+                        7.Artificial Intelligence <br>
+                        8.Open Domain<br> <br>
+                        
+                        Team size : 1-3 members <br><br>
+                        
+                       <b>Round 1:Ideation and Problem Statement Submission</b> <br>
+                        Teams select a problem within their chosen domain and submit a detailed problem statement along with an initial idea for a solution. <br>
+                        Submission: Online Google Form <br>
+                        Judging Criteria: <br>
+                        - Novelty of the idea <br>
+                        - Clarity of the problem statement <br>
+                        - Initial feasibility of the proposed solution <br><br>
+                        
+                        <b>Round 2 :Detailed Proposal and Pitch</b><br>
+                        Teams develop a comprehensive proposal and pitch their idea. The pitch should include detailed technical and business aspects. <br>
+                        Submission: PowerPoint Presentation <br>
+                        Content Requirements: <br>
+                        - Feasibility of the idea <br>
+                        - Existing Solutions<br>
+                        - Target Audience<br>
+                        - Sources of Income<br>
+                        - Market Analysis and Competitors<br>
+                        - Key Features<br>
+                        - Tech Stack<br>
+                        - SWOT Analysis<br>
+                        - Execution Timeline<br>
+                        - Project Costs<br><br>
+                        Judging Criteria: <br>
+                        - Depth of research<br>
+                        - Practicality and feasibility<br>
+                        - Presentation skills<br>
+                        - Innovativeness of the solution<br><br>
+                        
+                       <b>Round 3:Live Project Demonstration</b> <br>
+                        Teams present a live demonstration of their project, showcasing a working prototype or a detailed simulation.<br>
+                        Format: Live presentation (15-20 minutes per team)<br><br>
+                        Judging Criteria:<br>
+                        - Functionality and effectiveness of the prototype<br>
+                        - Practical implementation and scalability<br>
+                        - Quality of the demo<br>
+                        - Overall impact and potential<br>
+                         </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="activity animate-from-bottom__1">
+                <div class="relative-block">
+                    <div class="activity-icon">
+                        <img alt="An image" src="https://i.ibb.co/s2nghrT/ad-operations-process-strategy-activation.png">
+                    </div>
+                    <div class="inactive">
+                        <div class="title">RIDDLE ME THIS</div>
+                    </div>
+                    <div class="active">
+                        <div class="title">RIDDLE ME THIS</div>
+                        <div class="sub-title">
+                            <p>Welcome to "Riddle Me This" an interesting coding puzzle event designed to test your coding skills and teamwork across three challenging rounds. <br><br>
+                            Rules:<br>
+                            Participants will compete in teams of two.<br>
+                            <b>Round 1:Pen & Paper Challenge</b><br>
+                            1.This is a pen-and-paper round filled with multiple-choice questions (MCQs) from various programming languages.<br>
+                            2.Top performers based on time and accuracy will qualify for the next round.<br><br>
+                            <b>Round 2:Code Relay</b><br>
+                            1.Participants will take turns one by one.<br>
+                            2.Each participant will be given a hint and must begin coding within a specified time limit.<br>
+                            3.After the initial coding attempt, the next participant will be asked a question.<br>
+                           4. If the participant answers the question correctly, an additional hint will be provided to assist in continuing the code.<br><br>
+                            <b>Round 3: Surprise Event</b><br>
+                           1. The third round is a surprise.<br>
+                            2.This round relies on your knowledge and luck.<br>
+                        </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="activity animate-from-bottom__2">
+                <div class="relative-block">
+                    <div class="activity-icon">
+                        <img alt="An image" src="https://i.ibb.co/ZWp3Yts/ad-operations-process-strategy.png">
+                    </div>
+                    <div class="inactive">
+                        <div class="title">CODE SWAP SHOWDOWN</div>
+                    </div>
+                    <div class="active">
+                        <div class="title">CODE SWAP SHOWDOWN</div>
+                        <div class="sub-title">
+                        <p>
+                            <b>Round 1:Quiz</b> <br>
+                            Competitive quiz that consists of aptitude and coding MCQ questions. <br><br>
+                           <b> Rules: </b>
+                            1.No of Questions: 15. <br>
+                            2.Time: 15 minutes. <br>
+                            3.Languages: Java, C, SQL. <br> <br>
+                            <b>Round 2:Chat to Code</b> <br>
+                            The first member of the team will be given a problem statement and the other member will be the person to code. They are not allowed to discuss the problem statement. The first person is only allowed to give commands to the coder to finish the problem (Example: Create a for loop for 0 to 10). <br><br>
+                           <b>Rules:</b> 
+                            1.No of Questions: 2. <br>
+                            2.One question for each member.<br>
+                            3.Languages: Java, C, C++, Python, JavaScript. <br><br>
+                            <b>Round 3: Fortune Coder</b><br>
+                             A team member will be given a problem statement and asked to execute the problem with the given custom test case. The answer to the 1st problem unlocks the 2nd question and so on with a total of 4 questions. The answer to any question will not be confirmed by the event coordinators. If the team got the answers wrong, they will lead down the wrong path. The first to unlock the correct answer to the 4th question wins the game. <br><br>
+                           <b>Rules:</b> <br>
+                            1.The members should code alternatively. <br>
+                            2.No member will be allowed to discuss the problem statement with the other member. <br>
+                            3.Total time to complete all the questions is 40 mins.<br>
+                            Languages: Java, C, C++, Python, JavaScript.<br>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="activity animate-from-bottom__3">
+                <div class="relative-block">
+                    <div class="activity-icon">
+                        <img alt="An image" src="https://i.ibb.co/s2nghrT/ad-operations-process-strategy-activation.png">
+                    </div>
+                    <div class="inactive">
+                        <div class="title">CODE BOARD</div>
+                    </div>
+                    <div class="active">
+                        <div class="title">CODE BOARD</div>
+                        <div class="sub-title">
+                        <p>Code Board is a fun-filled code puzzle event consisting of three rounds in which the participants can engage themselves in a team of two. <br><br>
+
+                           <b>Round 1</b>  <br>
+                             The First round of the event will feature a quiz-based round. The team will participate in a quiz where they will be scrutinized on their technical knowledge. <br> <br>
+                            
+                             <b>Round 2</b>  <br>
+                            One of the team members will roll the dice. Depending on the number rolled, they'll receive a category and must find relevant tech terms related to that topic within a specified time using  actions and Gestures(Dumb - C). <br> <br>
+                            
+                            <b>Round 3</b>  <br>
+                            In the final round, teams will engage in a combination of quiz and chess-based mystery game. The game will require both Technical skills and chess tactics, creating an exciting and challenging experience for the teams.  <br> <br>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="activity animate-from-bottom__4">
+                <div class="relative-block">
+                    <div class="activity-icon">
+                        <img alt="An image" src="https://i.ibb.co/ZWp3Yts/ad-operations-process-strategy.png">
+                    </div>
+                    <div class="inactive">
+                        <div class="title">GLITCH GUARDIAN'S</div>
+                    </div>
+                    <div class="active">
+                        <div class="title">GLITCH GUARDIAN'S</div>
+                        <div class="sub-title">
+                        <p>Welcome to "Glitch Guardian’s," an electrifying technical extravaganza crafted to test your coding prowess and collaborative finesse across three exhilarating rounds. Embark on a journey to untangle intricate puzzles, unravel complex challenges, and synergize seamlessly with your team. Let the pursuit of perfection ignite your passion for problem-solving! <br><br>
+                            Rules:<br>
+                            Participants will collaborate in pairs.<br><br>
+                            <b>Round 1: Debugging Round<br></b>
+                            Total 20 questions.<br>
+                            This is a pen-and-paper round filled with questions from C and Java to be debugged.<br>
+                            Top 12 teams will be selected from this round.<br><br>
+                            <b>Round 2: Surprise Event<br></b>
+                            Total 10 questions.<br>
+                            Join us for an engaging and interactive session.<br>
+                            Questions will be in the format of Fill in the Blanks from C, Java, Python, DMBS and OS.<br>
+                            Top 6 teams will be selected from this round.<br><br>
+                            <b>Round 3: Coding round<br></b>
+                            Consists of 5 questions.<br>
+                            Participants should code in the Hackerank platform. (Make sure to have an account in hackerank)<br>
+                            All coding languages are allowed.<br><br>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="location">
+            <h2>Venue Location</h2>
+            <p>St. Joseph's Institute of Technology<br>
+            Rajiv Gandhi Salai, Kamaraj Nagar, Semmancheri,<br>
+            Chennai, Tamil Nadu<br>
+            600119</p>
+        </div>
+        <div class="social">
+            <h2>Social Connection</h2>
+            <p>Don't miss a thing! Receive daily news. You should connect on social media for any proper updates anytime.</p>
+            <div class="social-icons">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+           
+        </div>
+    </div>
+    <hr class="line">
+    <div class="contact-info">
+        FOR ANY FURTHER CLARIFICATION CONTACT: 9949561443
+    </div>
+
+
+    <script src="script.js"></script>
+    
+    <script src="matrix.js"></script>
+</body>
+</html>
