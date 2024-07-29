@@ -523,6 +523,7 @@ body{
 }
 .traineeship .inactive .title{
 font-size: 1rem;
+font-family:"Poppins", sans-serif;;
 }
 
 .traineeship .activity {
@@ -682,7 +683,7 @@ font-size: 20px;
 .contact-info{
 font-size: 20px;
 color:white;
-/* background-color: black; */
+background-color: black;
 }
 .process-row {
   flex-direction: column;
