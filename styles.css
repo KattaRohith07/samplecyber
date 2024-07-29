@@ -665,7 +665,8 @@ font-size: 20px;
 }
 .contact-info{
 font-size: 20px;
-color:black;
+color:white;
+background-color: black;
 }
 .process-row {
   flex-direction: column;
