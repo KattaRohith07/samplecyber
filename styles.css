@@ -591,7 +591,11 @@ width: 100%;
   width: 100%;
   float: left;
   }
-
+  .contact-info{
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    }
 
 }
 
