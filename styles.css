@@ -472,7 +472,8 @@ background-color: rgba(10, 10, 10, 0.687);
 }
 .line{
     color: white;
-    width: 50%;
+    width: 55%;
+    margin-left:3%;
 }
 
 .traineeship .activity .active .li {
@@ -677,6 +678,9 @@ text-align: center;
 .footer .social{
 width: 100%;
 }
+.footer .social-icons{
+  margin-left: 16%;
+}
 .footer .social h2{
 text-align: center;
 }
@@ -686,10 +690,15 @@ line-height: 1.5;
 font-family: "Poppins", sans-serif;
 font-size: 20px;
 }
-.contact-info{
+.footer .contact-info{
 font-size: 20px;
 color:white;
 background-color: black;
+width: 100%;
+}
+.footer .line{
+  width: 80%;
+  margin-left: 10%;
 }
 .process-row {
   flex-direction: column;
