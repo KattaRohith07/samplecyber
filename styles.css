@@ -481,7 +481,9 @@ button:active {
     margin-bottom: 30px;
     margin-left: 0px;
   }
-
+  .allText.bottomText a{
+    margin-right: 20%;
+  }
   .responsive-container-block.Container.bottomContainer {
     flex-direction: column;
   }
@@ -489,6 +491,7 @@ button:active {
   .text-blk.headingText {
     text-align: center;
     font-size: 22px;
+    margin-right: 20%;
   }
 
   .text-blk.subHeadingText {
@@ -497,6 +500,8 @@ button:active {
 
   .text-blk.description {
     text-align: center;
+    margin-right: 20%;
+    width: 100%;
   }
 
   .explore {
@@ -521,10 +526,7 @@ button:active {
 
   .videoContainer {
     width: 100%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    margin-left: 20%;
   }
 
   .mainVideo {
@@ -1371,6 +1373,10 @@ float: inline-start;
 .traineeship .activity .active .sub-title {
 font-size: .7em;
 
+}
+.videoContainer img{
+  margin-left: 50%;
+  width: 1000%;
 }
 #countdown {
 display: flex;
