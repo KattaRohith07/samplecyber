@@ -645,6 +645,12 @@ font-size: 1.2em;
 color: #c5c6c7;
 font-family: 'Courier', monospace;
 }
+body{
+  background-image: url(./smallwall.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .footer{
 display: block;
 height: 60vh;
