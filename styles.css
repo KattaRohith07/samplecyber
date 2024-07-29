@@ -1,6 +1,7 @@
 /* Matrix effect */
 html, body {
   /* background: black; */
+  height: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -518,7 +519,7 @@ width: 340px;
 flex-direction: row;
 }
 .footer{
-  margin-top: 30%;
+  margin-top: 100%;
 }
 .footer .contact-info{
   font-size: 20px;
@@ -621,7 +622,7 @@ width: 100%;
     flex-direction: column;
   }
   .footer{
-    margin-top: 30%;
+    margin-top: 100%;
   }
 .activity-icon img {
 width: 100px;
