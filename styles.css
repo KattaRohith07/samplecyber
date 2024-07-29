@@ -661,6 +661,7 @@ font-size: 20px;
 }
 .contact-info{
 font-size: 20px;
+color:black;
 }
 .process-row {
   flex-direction: column;
@@ -704,6 +705,7 @@ font-size: 20px;
   }
   .traineeship .activity .active .sub-title .text{
     margin-top: 20px;
+    font-family:"Poppins", sans-serif;
   }
   
   .traineeship .activity {
