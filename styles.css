@@ -694,7 +694,7 @@ background-color: black;
   
   .traineeship .inactive .title{
   font-size: 1rem;
-  font-family:"Poppins", sans-serif; ;
+  font-family:"Poppins", sans-serif;
   }
   
   .traineeship .activity {
@@ -712,6 +712,7 @@ background-color: black;
   .traineeship .activity .active .title {
   font-size: 1.2rem;
   font-weight: bold;
+  font-family:"Poppins", sans-serif;
   }
   
   .traineeship .activity .relative-block {
