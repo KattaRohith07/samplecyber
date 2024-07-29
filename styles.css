@@ -593,7 +593,7 @@ width: 100%;
   }
   .contact-info{
     font-size: 20px;
-    color:white;
+    color:brown;
     background-color: black;
     }
 
@@ -647,7 +647,7 @@ font-family: 'Courier', monospace;
 }
 .footer{
 display: block;
-height: 50vh;
+height: 60vh;
 }
 .footer .location{
 width: 100%;
