@@ -515,7 +515,12 @@ width: 340px;
 .process-row {
 flex-direction: column;
 }
-
+body{
+  background-image: url(./smallwall.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .traineeship .inactive .title{
 font-size: 1rem;
 }
@@ -535,6 +540,7 @@ font-size: 1em;
 .traineeship .activity .active .title {
 font-size: 1.2rem;
 font-weight: bold;
+font-family:"Poppins", sans-serif;
 }
 
 .traineeship .activity .relative-block {
@@ -649,7 +655,7 @@ body{
   background-image: url(./smallwall.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .footer{
 display: block;
@@ -676,7 +682,7 @@ font-size: 20px;
 .contact-info{
 font-size: 20px;
 color:white;
-background-color: black;
+/* background-color: black; */
 }
 .process-row {
   flex-direction: column;
@@ -684,6 +690,7 @@ background-color: black;
   
   .traineeship .inactive .title{
   font-size: 1rem;
+  font-family:"Poppins", sans-serif; ;
   }
   
   .traineeship .activity {
