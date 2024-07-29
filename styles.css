@@ -518,6 +518,15 @@ width: 340px;
 .process-row {
 flex-direction: row;
 }
+.footer .contact-info{
+  font-size: 20px;
+  color:white;
+  background-color: black;
+  width: 100%;
+  }
+.footer .social-icons{
+  margin-left: 16%;
+}
 body{
   background-image: url(./smallwall.jpg);
   background-position: center;
