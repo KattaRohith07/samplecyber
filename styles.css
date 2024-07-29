@@ -375,7 +375,7 @@ width: -webkit-max-content;
 width: -moz-max-content;
 width: max-content;
 color: #fff;
-font-size: 18px;
+font-size: 1.2rem;
 font-weight: bold;
 line-height: 28px;
 }
@@ -414,8 +414,7 @@ font-family: "Poppins", sans-serif;
 font-weight: bold;
 }
 .traineeship .activity .active .sub-title p{
-margin-left: 10px;
-font-family:"Poppins", sans-serif;
+  margin-top: 20px;
 }
 .traineeship .activity .active .ul {
 margin-bottom: 45px;
@@ -518,7 +517,7 @@ flex-direction: column;
 }
 
 .traineeship .inactive .title{
-font-size: 1.5rem;
+font-size: 1rem;
 }
 
 .traineeship .activity {
@@ -554,10 +553,7 @@ justify-content:flex-end;
 text-align: justify;
 }
 .traineeship .activity .active .sub-title p{
-font-family:"Poppins", sans-serif;
-font-size: 20px;
-justify-content:flex-end;
-text-align: justify;
+  margin-top: 20px;
 }
 
 .traineeship .activity {
@@ -595,115 +591,8 @@ width: 100%;
 
 
 }
-@media only screen and (max-width: 800px) {
-  .process-row {
-  flex-direction: column;
-  }
-  
-  .traineeship .inactive .title{
-  font-size: 1.5rem;
-  }
-  
-  .traineeship .activity {
-  width: 93%;
-  }
-  .traineeship .activity .active{
-  width: 93%;
-  }
-  
-  .traineeship .activity .active .sub-title {
-  font-size: 1em;
-  
-  }
-  
-  .traineeship .activity .active .title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  }
-  
-  .traineeship .activity .relative-block {
-  min-height: 100%;
-  }
-  
-  .traineeship .activity:hover {
-  width: 98%;
-  margin-left:2px;
-  margin-right:10px;
-  }
-  .traineeship .activity .active .sub-title b{
-  font-family:"Poppins", sans-serif;
-  font-size: 20px;
-  justify-content:flex-end;
-  text-align: justify;
-  }
-  .traineeship .activity .active .sub-title p{
-  font-family:"Poppins", sans-serif;
-  font-size: 20px;
-  justify-content:flex-end;
-  text-align: justify;
-  }
-  
-  .traineeship .activity {
-  display: flex;
-  width: 267px;
-  height: 260px;
-  margin: 15px 10px 10px;
-  background-color: #00484193;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
-  cursor: pointer;
-  transition: .3s;
-  overflow: hidden;
-  position: relative; /* Ensure the pop animation works correctly */
-  }
-  
-  /* Add glow effect on hover */
-  .traineeship .activity:hover {
-  width: 100%;
-  background-color: #ffffff3b;
-  height: 300%;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Glow effect */
-  animation: pop 0.4s ease-in-out; /* Apply pop animation on hover */
-  }
-  
-  /* Existing styles for hover effect */
-  .traineeship .activity:hover .inactive {
-  display: none;
-  }
-  
-  .traineeship .activity:hover .active {
-  display: block;
-  width: 100%;
-  }
-  
 
-  .footer{
-    display: block;
-    height: 60vh;
-    }
-    .footer .location{
-    width: 100%;
-    }
-    .footer .location h2{
-    text-align: center;
-    }
-    .footer .social{
-    width: 100%;
-    }
-    .footer .social h2{
-    text-align: center;
-    }
-    .footer p {
-    margin-left: 10px;
-    line-height: 1.5;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    }
-    .contact-info{
-    font-size: 20px;
-    }
-    
-  }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 800px){
 .activity-icon img {
 width: 30%;
 }
@@ -773,7 +662,82 @@ font-size: 20px;
 .contact-info{
 font-size: 20px;
 }
-
+.process-row {
+  flex-direction: column;
+  }
+  
+  .traineeship .inactive .title{
+  font-size: 1rem;
+  }
+  
+  .traineeship .activity {
+  width: 93%;
+  }
+  .traineeship .activity .active{
+  width: 93%;
+  }
+  
+  .traineeship .activity .active .sub-title {
+  font-size: 1em;
+  
+  }
+  
+  .traineeship .activity .active .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  }
+  
+  .traineeship .activity .relative-block {
+  min-height: 100%;
+  }
+  
+  .traineeship .activity:hover {
+  width: 98%;
+  margin-left:2px;
+  margin-right:10px;
+  }
+  .traineeship .activity .active .sub-title b{
+  font-family:"Poppins", sans-serif;
+  font-size: 20px;
+  justify-content:flex-end;
+  text-align: justify;
+  }
+  .traineeship .activity .active .sub-title .text{
+    margin-top: 20px;
+  }
+  
+  .traineeship .activity {
+  display: flex;
+  width: 267px;
+  height: 260px;
+  margin: 15px 10px 10px;
+  background-color: #00484193;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+  cursor: pointer;
+  transition: .3s;
+  overflow: hidden;
+  position: relative; /* Ensure the pop animation works correctly */
+  }
+  
+  /* Add glow effect on hover */
+  .traineeship .activity:hover {
+  width: 100%;
+  background-color: #ffffff3b;
+  height: 300%;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Glow effect */
+  animation: pop 0.4s ease-in-out; /* Apply pop animation on hover */
+  }
+  
+  /* Existing styles for hover effect */
+  .traineeship .activity:hover .inactive {
+  display: none;
+  }
+  
+  .traineeship .activity:hover .active {
+  display: block;
+  width: 100%;
+  }
+  
 }
 
 #header {

@@ -34,3 +34,7 @@ function removeActiveClasses(){
     })
 }
 setInterval(countdown, 1000);
+
+function register(){
+    window.location.href='https://conoscenza2024.stjosephstechnology.ac.in/registration';
+}
