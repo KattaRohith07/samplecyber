@@ -519,7 +519,7 @@ width: 340px;
 flex-direction: row;
 }
 .footer{
-  margin-top: 10%;
+  margin-top: 30%;
 }
 .footer .contact-info{
   font-size: 20px;
@@ -627,7 +627,7 @@ width: 100%;
     flex-direction: column;
   }
   .footer{
-    margin-top: 10%;
+    margin-top: 30%;
   }
 .activity-icon img {
 width: 100px;
