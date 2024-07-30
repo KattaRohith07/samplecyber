@@ -236,6 +236,7 @@ button:active {
   padding-right: 50px;
   padding-bottom: 10px;
   padding-left: 50px;
+  
 }
 
 .text-blk.headingText {
@@ -362,6 +363,7 @@ button:active {
   margin-right: auto;
   margin-bottom: 50px;
   margin-left: auto;
+  box-shadow: 10px 10px 10px 10px white;
 }
 
 .allText.aboveText {
@@ -1011,7 +1013,7 @@ justify-content: center;
 -webkit-box-orient: horizontal;
 -webkit-box-direction: normal;
 -ms-flex-direction: column;
-flex-direction: column;
+flex-direction: row;
 -webkit-box-pack: justify;
 -ms-flex-pack: justify;
 justify-content: space-between;
