@@ -1365,6 +1365,9 @@ width: 100%;
 }
 
 @media only screen and (max-width: 800px){
+  html{
+    he
+  }
   .process-row{
     flex-direction: column;
   }
